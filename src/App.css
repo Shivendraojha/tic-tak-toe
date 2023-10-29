@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #282c36;
+  color: #ffffff;
+}
+
+.App {
+  text-align: center;
+}
+
+.square {
+  font-size: 36px;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  padding: 10px;
+  border: 2px solid #61dafb; /* Cool blue color for borders */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  background-color: #444c5c; /* Darker gray for square background */
+}
+
+.square:hover {
+  background-color: #555e70; /* Slightly lighter gray on hover */
+}
+
+.square:active {
+  transform: scale(0.95);
+}
+
+.status {
+  font-size: 24px;
+  margin: 20px 0;
+  color: #61dafb; /* Same cool blue color for the status text */
+}
